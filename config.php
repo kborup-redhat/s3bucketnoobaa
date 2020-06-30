@@ -29,7 +29,7 @@ $c['cache-dir'] = getenv_default('CACHE_DIR', '/tmp');
 
 // Bucket
 $c['bucket-name'] = getenv_default('BUCKET_NAME' , 'web-bucket-4cf101e4-5ca2-400b-ae1e-5345a1b4a747');
-$c['bucket-url-prefix'] = getenv_default('BUCKET_URL_PREFIX', 'https://s3-openshift-storage.apps.vpsec.emea-1.rht-labs.com'/$c['bucket-name']);
+$c['bucket-url-prefix'] = getenv_default('BUCKET_URL_PREFIX', 'https://s3-openshift-storage.apps.vpsec.emea-1.rht-labs.com');
 
 // Google analytics id to use for tracking
 // Download links will also be recorded in Google Analytics
